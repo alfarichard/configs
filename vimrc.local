@@ -1,0 +1,24 @@
+:inoremap jk <Esc>
+:xnoremap jk <Esc>
+:noremap \ :w<CR>
+:nnoremap ; :
+:set timeoutlen=1000 ttimeoutlen=0
+:nnoremap ç @q
+:nmap <CR> o<Esc>
+:set wrap
+:set linebreak
+:set nolist " list disables linebreak
+:set textwidth=80
+:set colorcolumn=81
+:set formatoptions-=t
+:set cursorline
+:set relativenumber
+
+autocmd BufNewFile,BufRead *.irul set syntax=irul
+
+hi CursorLine   cterm=NONE ctermbg=88 ctermfg=white guibg=88 guifg=white
+hi Normal ctermbg=none
+hi Normal ctermfg=none
+
+nnoremap <space> za
+vnoremap <space> zf
