@@ -22,3 +22,5 @@ hi Normal ctermfg=none
 
 nnoremap <space> za
 vnoremap <space> zf
+
+let g:python3_host_prog = "$PYTHON3_HOST_PROG"
